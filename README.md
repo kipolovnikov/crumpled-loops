@@ -1,16 +1,16 @@
 # crumpled-loops
 A minimal polymer physics model for ensemble of random loops on a crumpled chain
 
-It contains a Jupyter notebook for numerical calculation of P(s) for a fractal polymer chain folded into random loops.
+It contains a Jupyter notebook for numerical calculation of $P(s)$ for a fractal polymer chain folded into random loops.
 
 Parameters of the system:
 - Mean loop size $\lambda$;
 - Mean spacer size $g$; density $d=\lambda/g$;
 - Kuhn segment $l_k$;
 - Fractal dimension $d_f$;
-- Volume density $\phi$;
+- Volume density $\varphi$;
 - Entanglement length $N_e$ of the chain without loops; 
-$N_e$ is a function of volume density $\phi$, Kuhn segment $l_k$, loop size $\lambda$ and loop density $d$.
+$N_e$ is a function of volume density $\varphi$, Kuhn segment $l_k$, loop size $\lambda$ and loop density $d$.
 
 The effect of the loops on is computed in the approximation of quenched loops disorder: the loops are randomly positioned and fixed on each conformation;
 the chain is further equilibrated together with its loops.
